@@ -263,6 +263,43 @@ nav ul li a {
   background-color: #0056b3;
 }
 
+
+@media (max-width: 768px) {
+  /* Stack navigation items */
+  nav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  /* Make hero content more readable on small screens */
+  .hero-content h1 {
+      font-size: 1.8rem;
+  }
+
+  .hero-content h2 {
+      font-size: 2.2rem;
+  }
+
+  .hero-content p {
+      font-size: 1rem;
+  }
+
+  /* Adjust header images */
+  .header-img, .header-img2 {
+      width: 280px;  /* Adjust size for smaller screens */
+      bottom: 0;
+  }
+
+  .sun {
+      top: 20px;
+      right: 20px;
+  }
+
+  .sun img {
+      width: 150px;  /* Adjust size of sun image */
+  }
+}
+
 /* Mobile Responsiveness */
 @media screen and (max-width: 768px) {
   .header {
