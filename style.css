@@ -36,18 +36,18 @@
 .header-img {
     position: absolute;
     bottom: 10px; 
-    left: 10px; /* Place this image on the left */
+    left: 10px; 
     width: 350px; 
-    height: 200px; /* Maintain the aspect ratio */
+    height: 200px; 
 }
 
 
 .header-img2 {
     position: absolute;
     bottom: 10px; 
-    right: 10px; /* Place this image on the right */
-    width: 300px; /* Adjust the size for consistency */
-    height: 210px; /* Maintain the aspect ratio */
+    right: 10px; 
+    width: 300px; 
+    height: 210px; 
 }
 
 
@@ -274,23 +274,24 @@ nav ul li a {
   }
   
  
-  /* Mobile responsiveness for header */
+ 
+  /* Mobile Responsiveness for Header */
 @media (max-width: 768px) {
   /* Stack nav items vertically for smaller screens */
   nav ul {
       flex-direction: column;
       align-items: center;
   }
-  
+
   nav ul li {
       margin-bottom: 10px;
   }
-  
+
   /* Adjust hero section font size */
   .hero-content h1 {
       font-size: 2rem;
   }
-  
+
   .hero-content h2 {
       font-size: 2.5rem;
   }
@@ -301,7 +302,7 @@ nav ul li a {
 
   /* Adjust header images */
   .header-img, .header-img2 {
-      width: 250px;  
+      width: 250px;  /* Adjust width for smaller screens */
       height: auto;
       bottom: 5px;
   }
@@ -315,7 +316,7 @@ nav ul li a {
   .sun {
       top: 20px;
       right: 20px;
-      animation: none; /
+      animation: none; /* Disable bounce on small screens */
   }
 
   .sun img {
