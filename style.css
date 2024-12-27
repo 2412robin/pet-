@@ -275,3 +275,57 @@ nav ul li a {
   }
   
  
+  /* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  .header {
+      height: 300px;
+  }
+
+  .hero-content {
+      font-size: 1.2rem;
+  }
+
+  .pet-images {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .pet-images img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
+  }
+
+  .header-img, .header-img2 {
+      width: 200px;
+      height: 150px;
+  }
+
+  nav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav ul li {
+      margin: 10px 0;
+  }
+
+  .cards-container {
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .card {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .footer {
+      grid-template-columns: 1fr;
+      text-align: center;
+  }
+
+  .footer h2, .footer h3 {
+      font-size: 16px;
+  }
+}
